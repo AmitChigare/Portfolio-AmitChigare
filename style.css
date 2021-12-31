@@ -226,7 +226,7 @@ p {
 }
 .profile-img {
   border-radius: 50%;
-  box-shadow: 0 8px 15px 5px rgba(0, 0, 0, 0.185);
+  box-shadow: 0 8px 15px 5px rgba(0, 0, 0, 0.4);
   width: 29.8rem;
   height: 29.8rem;
   border: 3px solid #ffffffa2;
@@ -256,7 +256,7 @@ p {
   color: rgb(24, 11, 2);
 }
 .social a:hover .social-icon {
-  color: rgba(32, 15, 3, 0.651);
+  color: rgba(32, 15, 3, 0.45);
 }
 .about {
   margin: 2.4rem 0;
