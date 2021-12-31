@@ -318,13 +318,13 @@ button {
   border-radius: 4rem;
   cursor: pointer;
   border: 2px solid #ec573d;
+  transition: all 0.6s;
   /* border: 2px solid white; */
 }
 button:hover {
   background-color: white;
   color: black;
   border: 2px solid #ec573d;
-  transition: 0.6s;
   /* transform: translateY(-3px); */
 }
 .services {
@@ -349,13 +349,14 @@ svg {
   cursor: pointer;
   background-color: #333131c9;
   border-radius: 2rem;
+  transition: all 0.5s;
+  
 }
 .skills:hover {
   background-color: #ec573d;
   /* scale: 1.5; */
   transform: scale(1.1);
   box-shadow: 0 0 15px 5px #ec573d63;
-  transition: 0.5s;
 }
 .skills h4 {
   font-size: 1.9rem;
