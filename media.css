@@ -237,3 +237,21 @@
     transform: translateY(0);
   }
 }
+.social {
+  animation: blink 3.5s linear infinite;
+  /* animation-delay: 2s; */
+}
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+.social:hover {
+  animation: none;
+}
