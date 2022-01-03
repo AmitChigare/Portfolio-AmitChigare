@@ -190,7 +190,7 @@
 /*////////////////////////////////////////////////////////////*/
 
 .profile-text {
-  animation: fromLeft 2s;
+  animation: fromLeft 1.5s;
 }
 @keyframes fromLeft {
   0% {
@@ -206,7 +206,7 @@
   }
 }
 .profile-img {
-  animation: fromRight 2s;
+  animation: fromRight 1.5s;
 }
 @keyframes fromRight {
   0% {
@@ -238,7 +238,7 @@
   }
 }
 .social {
-  animation: blink 3.5s linear infinite;
+  animation: blink 2s linear infinite;
   /* animation-delay: 2s; */
 }
 @keyframes blink {
