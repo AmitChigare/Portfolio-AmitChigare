@@ -367,7 +367,7 @@ svg {
 .skills-desc {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.6rem;
+  gap: 10.6rem;
   padding: 3.6rem 8.2rem;
 }
 .creative-skills {
@@ -376,6 +376,9 @@ svg {
 }
 .skills-desc div {
   margin-top: 1.6rem;
+}
+.bar-per-area {
+  width: 85%;
 }
 h4 {
   margin: 1.6rem 0;
