@@ -165,7 +165,7 @@ nav {
   height: 9rem;
 }
 ul li a:hover {
-  border-bottom: solid white;
+  border-bottom: solid #ffffffaf;
   transition: 0.4s;
 }
 
