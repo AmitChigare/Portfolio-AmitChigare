@@ -1,3 +1,10 @@
+/*1024*/
+@media (max-width: 64em) {
+  .skills-desc {
+    gap: 7rem;
+  }
+}
+
 /*900px*/
 @media (max-width: 56em) {
   html {
@@ -13,6 +20,9 @@
   }
   .getintouch {
     padding: 0;
+  }
+  .skills-desc {
+    gap: 4rem;
   }
 }
 /*666px*/
@@ -131,8 +141,11 @@
   .skills {
     padding: 3rem 2.4rem;
 
-    width: 70%;
+    width: 80%;
     /* height: 35rem; */
+  }
+  .bar-per-area {
+    width: 100%;
   }
   .skills-desc {
     display: grid;
