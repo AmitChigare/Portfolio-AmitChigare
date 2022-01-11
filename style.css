@@ -16,21 +16,15 @@ body {
   background-position: center; */
   /* background-size: cover; */
 }
-/* .triangle1 {
-  position: absolute;
-  width: 80rem;
-  height: 20rem;
-  top: 0;
-  left: 0;
-  z-index: 5;
-} */
-/* triangle1  */
+
 main {
   /* position: relative; */
   height: 100vh;
   background-image: url(backG.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  /* filter: blur(3px); */
 }
 .floating div {
   width: 3rem;
@@ -229,7 +223,7 @@ p {
 }
 .profile-img {
   border-radius: 50%;
-  box-shadow: 0 8px 15px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 2.6rem 8px rgba(0, 0, 0, 0.4);
   width: 29.8rem;
   height: 29.8rem;
   border: 3px solid #ffffffa2;
@@ -259,7 +253,7 @@ p {
   color: rgb(24, 11, 2);
 }
 .social a:hover .social-icon {
-  color: rgba(32, 15, 3, 0.45);
+  color: rgba(32, 15, 3, 0.451);
 }
 .about {
   margin: 2.4rem 0;
@@ -335,8 +329,13 @@ button:active {
   transform: translateY(0px);
   box-shadow: 0 2px 5px #000000b2;
 }
+
 .services {
-  background-color: black;
+  background-image: url(handshake3Compressed.jpg);
+  /* backdrop-filter: blur(300px); */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
 }
 svg {
@@ -348,28 +347,54 @@ svg {
   justify-content: center;
   text-align: center;
   padding: 4.2rem;
-  gap: 1.6rem;
+  gap: 1.8rem;
 }
+
+.my-skills {
+  /* height: 75vh; */
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
+  background-color: #0f0500e6;
+  color: white;
+}
+
 .skills {
   position: relative;
   height: auto;
   width: 30%;
   padding: 1rem 2.4rem;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.45);
   cursor: pointer;
-  background-color: #333131c9;
+  backdrop-filter: blur(20px);
+  background-color: hsla(20, 100%, 3%, 0.247);
+
   border-radius: 2rem;
   transition: all 0.4s;
-  z-index: 1;
   overflow: hidden;
 }
+
 .skills:hover {
+  backdrop-filter: none;
   background-color: #ec573d;
-  transform: scale(1.05);
+  transform: scale(1.08);
+}
+
+/* .skills-2 {
+  transform: scale(1);
+} */
+
+/* .skills-1:hover .skills-2 {
+  transform: scale(0.1);
+} */
+
+.skills .light-glow {
+  display: block;
+  animation: lightGlow 5s linear infinite;
 }
 
 .skills:hover .light-glow {
-  display: block;
-  animation: lightGlow 3s linear infinite;
+  /* animation: none; */
+  animation: lightGlow 15s linear infinite;
 }
 
 .light-glow {
@@ -379,13 +404,14 @@ svg {
   height: 95rem;
   width: 5rem;
   top: -45rem;
-  left: -3rem;
+  left: -7rem;
   background-color: rgba(255, 255, 255, 0.466);
   filter: blur(20px);
   /* transition: 4s; */
 
   z-index: -1;
 }
+
 .skills h4 {
   font-size: 1.9rem;
   margin: 1.2rem 0;
@@ -422,7 +448,7 @@ p {
   border-radius: 4px;
   width: 100%;
   height: 8px;
-  background-color: rgba(128, 128, 128, 0.801);
+  background-color: rgba(128, 128, 128, 0.644);
 }
 .range span {
   border-radius: 4px;
@@ -479,9 +505,10 @@ h5 {
   width: 5.4rem;
   padding-top: 1.2rem;
 }
-input,textarea {
+input,
+textarea {
   border-radius: 5px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: inherit;
   color: inherit;
   /* display: block; */
@@ -490,32 +517,41 @@ input,textarea {
   border: none;
   /* border: 1px solid grey; */
   border-bottom: 3px solid #2f32ff93;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 2rem 3px rgba(0, 0, 0, 0.1);
   transition: all 0.3s;
 }
 
-input:focus,textarea:focus {
+input:not(:last-child) {
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+input:focus:invalid,
+textarea:focus:invalid {
+  border-bottom: 3px solid #ec573d;
+}
+
+input:focus,
+textarea:focus {
   outline: none;
   border-bottom: 3px solid #3dec46;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
-input:focus:invalid,textarea:focus:invalid {
-  border-bottom: 3px solid #ec573d;
-}
 label {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin-left: 2.5rem;
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   display: block;
   transition: 0.3s;
 }
 
-input:placeholder-shown ~ label,textarea:placeholder-shown ~ label {
+input:placeholder-shown ~ label,
+textarea:placeholder-shown ~ label {
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-3rem);
+  transform: translateY(-1rem);
 }
 
 .contact-desc {
@@ -530,11 +566,6 @@ input:placeholder-shown ~ label,textarea:placeholder-shown ~ label {
   gap: 1.2rem;
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr 1fr 1fr; */
-}
-
-input:not(:last-child) {
-  margin-top: 1.2rem;
-  margin-bottom: 1rem;
 }
 
 /* .input-cont input:nth-child(3),
