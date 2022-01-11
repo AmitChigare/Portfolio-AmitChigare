@@ -20,7 +20,7 @@ body {
 main {
   /* position: relative; */
   height: 100vh;
-  background-image: url(backG.jpg);
+  background-image: url(backGCompressed.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -331,7 +331,7 @@ button:active {
 }
 
 .services {
-  background-image: url(handshake3Compressed.jpg);
+  background-image: url(handshake3Compressed2.jpg);
   /* backdrop-filter: blur(300px); */
   background-position: center;
   background-size: cover;
