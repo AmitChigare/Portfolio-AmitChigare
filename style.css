@@ -402,10 +402,10 @@ svg {
   position: absolute;
   transform: rotate(60deg);
   height: 95rem;
-  width: 5rem;
+  width: 4rem;
   top: -45rem;
   left: -7rem;
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: rgba(255, 255, 255, 0.35);
   filter: blur(20px);
   /* transition: 4s; */
 
@@ -429,6 +429,15 @@ svg {
   line-height: 1.4;
   padding: 0;
 }
+
+.creative-skills a {
+  color: orange;
+  font-size: 1.6rem;
+}
+.creative-skills p {
+  margin-bottom: 1.2rem;
+}
+
 .skills-desc div {
   margin-top: 1.6rem;
 }
