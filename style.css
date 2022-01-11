@@ -376,9 +376,9 @@ svg {
   display: none;
   position: absolute;
   transform: rotate(60deg);
-  height: 38rem;
+  height: 95rem;
   width: 5rem;
-  top: -20rem;
+  top: -45rem;
   left: -3rem;
   background-color: rgba(255, 255, 255, 0.466);
   filter: blur(20px);
