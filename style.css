@@ -21,7 +21,7 @@ main {
   /* position: relative; */
   height: 100vh;
   background-image: url(backGCompressed.jpg);
-  background-attachment: fixed;
+/*   background-attachment: fixed; */
   background-position: center;
   background-size: cover;
   /* filter: blur(3px); */
