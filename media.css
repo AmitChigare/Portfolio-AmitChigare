@@ -30,6 +30,9 @@
   html {
     font-size: 45%;
   }
+  /* .profile-text {
+    text-align: center;
+  } */
   .profile {
     flex-direction: column;
     gap: 0rem;
@@ -75,39 +78,32 @@
   html {
     font-size: 45%;
   }
-  /* main {
-    position: relative;
-  }
-  .main-blur {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    filter: blur(0px);
-    
-  }
 
-  .navigation {
-    filter: blur(0px);
-    position: relative;
-  }*/
   .menu-bar {
     display: block;
     position: absolute;
-    top: -8%;
+    top: -10%;
     right: 10%;
+  }
+  .services {
+    background-attachment: scroll;
+    background-image: url(handshake3Compressed2.jpg);
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover; */
+  }
+  .light-glow {
+    transform: rotate(60deg);
+    left: 15rem;
+    top: -40rem;
+    height: 60rem;
   }
   .menu-bar svg {
     width: 5.4rem;
   }
 
   ul {
-    /* position: absolute; */
     display: none;
-    /* top: 8rem;
-    right: 5rem;
-    flex-direction: column;
-    z-index: 15; */
-    /* transition: all 6s; */
   }
 
   .contact h2 {
@@ -183,6 +179,7 @@
   .contact-desc {
     padding: 5.4rem 4rem;
   }
+
   .contact {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
@@ -244,9 +241,6 @@
     transform: translateX(0);
     transform: translateY(-200px);
   }
-  /* 70% {
-    transform: translateY(-10px);
-  } */
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -275,6 +269,7 @@
 @keyframes lightGlow {
   100% {
     display: block;
+    /* transform: translateY(5rem); */
     top: 15rem;
     left: 24rem;
   }
