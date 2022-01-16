@@ -26,7 +26,11 @@ main {
   background-size: cover;
   /* filter: blur(3px); */
 }
+.floating {
+  overflow: hidden;
+}
 .floating div {
+  overflow: hidden;
   width: 3rem;
   height: 3rem;
   border: 2px solid #ff5e00;
@@ -148,11 +152,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  /* width: 100vw; */
+  /* background-color: rgba(0, 0, 0, 0.096); */
+  /* position: fixed; */
+  /* width: 80%;
   position: relative;
   backdrop-filter: blur(5px);
-  z-index: 9999;
-  /* position: sticky; */
-  /* position: fixed; */
+  z-index: 9999; */
 }
 .logo {
   margin-top: 0.6rem;
@@ -256,7 +263,7 @@ p {
   color: rgb(24, 11, 2);
 }
 .social a:hover .social-icon {
-  color: rgba(32, 15, 3, 0.451);
+  color: rgba(32, 15, 3, 0.45);
 }
 .about {
   margin: 2.4rem 0;
@@ -410,7 +417,6 @@ svg {
   left: -7rem;
   background-color: rgba(255, 255, 255, 0.35);
   filter: blur(20px);
-  /* transition: 4s; */
 
   z-index: -1;
 }
@@ -498,6 +504,10 @@ h5 {
   margin-bottom: 0.2rem;
 }
 .contact {
+  /* background: url(handshake4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; */
   padding: 3.6rem 8.2rem;
   border-top: 2px solid gray;
 }
