@@ -319,7 +319,7 @@ h3 {
 }
 button {
   margin-top: 2.4rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 2.2rem;
   color: white;
   background-color: #ec573d;
   border-radius: 1.5rem;
@@ -345,7 +345,7 @@ button:active {
   /* backdrop-filter: blur(300px); */
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+/*   background-attachment: fixed; */
   color: white;
 }
 svg {
