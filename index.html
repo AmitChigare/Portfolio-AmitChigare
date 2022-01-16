@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="nav.css">
@@ -330,6 +331,30 @@
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript">
+    ScrollReveal({
+      // reset: true,
+      distance: '60px',
+      duration: 1500,
+      delay: 00
+    })
+
+    ScrollReveal().reveal('#linkedInImage', { delay: 300, origin: 'left' });
+    ScrollReveal().reveal('.about-content', { delay: 600, origin: 'right' });
+
+    // ScrollReveal().reveal('h2', { delay: 400, origin: 'top' });
+    ScrollReveal().reveal('.skills-1', { delay: 400, origin: 'bottom' });
+    ScrollReveal().reveal('.skills-2', { delay: 800, origin: 'bottom' });
+    ScrollReveal().reveal('.skills-3', { delay: 1200, origin: 'bottom' });
+
+    ScrollReveal().reveal('.creative-skills', { delay: 600, origin: 'left' });
+    ScrollReveal().reveal('.range', { delay: 400, origin: 'bottom' });
+    ScrollReveal().reveal('.range2', { delay: 800, origin: 'bottom' });
+    ScrollReveal().reveal('.range3', { delay: 1200, origin: 'bottom' });
+    ScrollReveal().reveal('.range4', { delay: 1600, origin: 'bottom' });
+
+    ScrollReveal().reveal('input', { delay: 600, origin: 'top' });
+  </script>
 </body>
 
 </html>
