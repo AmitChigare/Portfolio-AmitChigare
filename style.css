@@ -348,6 +348,9 @@ button:active {
 /*   background-attachment: fixed; */
   color: white;
 }
+.services h2 {
+  text-shadow: 3px 3px 5px black;
+}
 svg {
   width: 6.4rem;
   /* font-size: 2rem; */
