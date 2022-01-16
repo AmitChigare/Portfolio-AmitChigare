@@ -326,7 +326,7 @@ button {
   cursor: pointer;
   border: 2px solid #ec573d;
   transition: all 0.4s;
-  box-shadow: 0 2px 5px black;
+  box-shadow: 0 .7px 5px black;
 }
 button:hover {
   transform: translateY(-3px);
@@ -336,7 +336,7 @@ button:hover {
 }
 
 button:active {
-  transform: translateY(0px);
+  transform: translateY(1px);
   box-shadow: 0 2px 5px #000000b2;
 }
 
