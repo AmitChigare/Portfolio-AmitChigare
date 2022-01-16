@@ -82,16 +82,10 @@
   .menu-bar {
     display: block;
     position: absolute;
-    top: -10%;
+    top: -8rem;
     right: 10%;
   }
-  .services {
-    background-attachment: scroll;
-    background-image: url(handshake3Compressed2.jpg);
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -moz-background-size: cover; */
-  }
+  
   .light-glow {
     transform: rotate(60deg);
     left: 15rem;
