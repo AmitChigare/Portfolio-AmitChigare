@@ -82,6 +82,7 @@
   .menu-bar {
     display: block;
     position: absolute;
+    z-index: 999900;
     top: -8rem;
     right: 10%;
   }
@@ -94,6 +95,7 @@
   }
   .menu-bar svg {
     width: 5.4rem;
+    z-index: 99999999;
   }
 
   ul {
