@@ -82,11 +82,10 @@
   .menu-bar {
     display: block;
     position: absolute;
-    z-index: 999900;
+    /* z-index: 99999; */
     top: -8rem;
     right: 10%;
   }
-  
   .light-glow {
     transform: rotate(60deg);
     left: 15rem;
@@ -94,8 +93,8 @@
     height: 60rem;
   }
   .menu-bar svg {
+    z-index: 9999999;
     width: 5.4rem;
-    z-index: 99999999;
   }
 
   ul {
