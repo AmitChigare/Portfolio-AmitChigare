@@ -21,7 +21,7 @@ main {
   /* position: relative; */
   height: 100vh;
   background-image: url(backGCompressed.jpg);
-/*   background-attachment: fixed; */
+  /* background-attachment: fixed; */
   background-position: center;
   background-size: cover;
   /* filter: blur(3px); */
@@ -326,7 +326,7 @@ button {
   cursor: pointer;
   border: 2px solid #ec573d;
   transition: all 0.4s;
-  box-shadow: 0 .7px 5px black;
+  box-shadow: 0 0.5px 5px black;
 }
 button:hover {
   transform: translateY(-3px);
@@ -345,7 +345,8 @@ button:active {
   /* backdrop-filter: blur(300px); */
   background-position: center;
   background-size: cover;
-/*   background-attachment: fixed; */
+  /* background-attachment: fixed; */
+  /* height: 75vh; */
   color: white;
 }
 .services h2 {
