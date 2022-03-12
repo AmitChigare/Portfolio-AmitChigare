@@ -78,6 +78,12 @@
   html {
     font-size: 45%;
   }
+  
+  .about,
+  .services,
+  .my-skills {
+    height: auto;
+  }
 
   .menu-bar {
     display: block;
