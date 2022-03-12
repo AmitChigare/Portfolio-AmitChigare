@@ -267,6 +267,7 @@ p {
 }
 .about {
   margin: 2.4rem 0;
+  height: 75vh;
 }
 .about-box {
   display: flex;
@@ -348,6 +349,7 @@ button:active {
   /* background-attachment: fixed; */
   /* height: 75vh; */
   color: white;
+  height: 75vh;
 }
 .services h2 {
   text-shadow: 3px 3px 5px black;
@@ -370,6 +372,7 @@ svg {
   border-bottom: 2px solid orange;
   background-color: #0f0500e6;
   color: white;
+  height: 75vh;
 }
 
 .skills {
