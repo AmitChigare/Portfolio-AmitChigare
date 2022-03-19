@@ -3,6 +3,9 @@
   .skills-desc {
     gap: 7rem;
   }
+  .services {
+    height: auto;
+  }
 }
 
 /*900px*/
@@ -14,6 +17,9 @@
   .skills-desc,
   .contact {
     padding: 5.4rem 6rem;
+  }
+  .services {
+    height: 80vh;
   }
   .creative-skills {
     padding: 0;
